@@ -14,10 +14,10 @@ variable "prefix" {
   default     = "globo-dev"
 }
 
-variable environment {
-  type = string
+variable "environment" {
+  type        = string
   description = "(Optional) environment of all resources"
-  default = "development"
+  default     = "development"
 }
 
 variable "cidr_block" {
